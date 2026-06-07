@@ -10,4 +10,9 @@ public class DeleteTaskDemo {
      tasks.add("Finish report");
      System.out.println("Initial Task List:" + tasks);
      String targetTask= "Call doctor";
+     //Search Logic (Core DELETE Process)
+        for (String task : tasks) {
+        if (task.equals(targetTask)) {
+        }
+    }
     }
