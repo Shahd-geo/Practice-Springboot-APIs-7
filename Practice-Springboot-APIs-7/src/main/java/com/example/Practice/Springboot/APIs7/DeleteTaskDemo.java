@@ -14,6 +14,7 @@ public class DeleteTaskDemo {
         for (String task : tasks) {
         if (task.equals(targetTask)) {
             tasks.remove(task);
+            System.out.println("Task Removed:" + task);
         }
         }
     }
