@@ -26,4 +26,7 @@ public class DeleteTaskDemo {
             System.out.println(tasks);
         }
     }
+    public static void main(String[] args){
+        deleteTask();
+    }
 }
