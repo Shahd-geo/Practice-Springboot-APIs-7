@@ -12,5 +12,18 @@ public class ProductService {
         productMap.put(2, new Product(2, "Phone", 300));
         productMap.put(3, new Product(3, "Tablet", 200));
     }
+        public String deleteProductById(int productId) {
 
-}
+            if (!productMap.containsKey(productId)) {
+                return "Product not found";
+            }
+
+            Product product = productMap.get(productId);
+            productMap.remove(productId);
+
+            return "Product Deleted Successfully\n" +
+                    "Product ID: " + product.getProductId() + "\n" +
+                    "Product Name: " + product.getProductName() + "\n" +
+                    "Status: Removed from inventory";
+        }
+    }
