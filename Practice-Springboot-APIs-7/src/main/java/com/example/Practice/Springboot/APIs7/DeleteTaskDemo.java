@@ -13,6 +13,8 @@ public class DeleteTaskDemo {
      //Search Logic (Core DELETE Process)
         for (String task : tasks) {
         if (task.equals(targetTask)) {
+            tasks.remove(task);
+        }
         }
     }
     }
