@@ -20,6 +20,16 @@ public class LibraryManager {
             System.out.println(member.getMemberId() + " - "+ member.getFullName() + " - " + member.getMembershipType());
         }
     }
+    public boolean deleteMemberById(int memberId) {
+        for (int i = 0; i < members.size(); i++) {
+            if (members.get(i).getMemberId() == memberId) {
+                members.remove(i);
+                return true;
+            }
+        }
+
+        return false;
+    }
 
 
 }
