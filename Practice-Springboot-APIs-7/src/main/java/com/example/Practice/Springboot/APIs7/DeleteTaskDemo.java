@@ -15,6 +15,7 @@ public class DeleteTaskDemo {
         if (task.equals(targetTask)) {
             tasks.remove(task);
             System.out.println("Task Removed:" + task);
+            break;
         }
         }
     }
