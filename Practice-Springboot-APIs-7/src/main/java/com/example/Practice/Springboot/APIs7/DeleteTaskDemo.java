@@ -17,6 +17,13 @@ public class DeleteTaskDemo {
             System.out.println("Task Removed:" + task);
             break;
         }
+        //. Not Found Case .
+       if (!task.equals(targetTask))) {
+            System.out.println("Task not found. No deletion performed.");
         }
+        System.out.println("Final Task List:");
+        System.out.println(tasks);
+    }
+})
     }
     }
