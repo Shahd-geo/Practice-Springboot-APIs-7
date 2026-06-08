@@ -24,7 +24,11 @@ public class RegistrationService {
                 registrations.remove(id);
                 deletedIds.add(id);
 
+        } else {
+            notFoundIds.add(id);
         }
     }
+
+}
 
 }
