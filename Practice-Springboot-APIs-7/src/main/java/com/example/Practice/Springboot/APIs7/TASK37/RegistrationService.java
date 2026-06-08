@@ -19,7 +19,9 @@ public class RegistrationService {
     public String deleteMultipleByIds(List<Integer> ids){
         List<Integer> deletedIds = new ArrayList<>();
         List<Integer> notFoundIds = new ArrayList<>();
+        for(Integer id:ids){
 
+        }
     }
 
 }
