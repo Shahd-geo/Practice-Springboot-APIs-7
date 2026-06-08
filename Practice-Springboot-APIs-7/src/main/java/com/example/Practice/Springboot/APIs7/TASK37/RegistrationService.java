@@ -16,19 +16,26 @@ public class RegistrationService {
         registrations.put(103, new EventRegistration(103, "Mona"));
         registrations.put(104, new EventRegistration(104, "Ali"));
     }
-    public String deleteMultipleByIds(List<Integer> ids){
+    public String deleteMultipleByIds(List<Integer> ids) {
         List<Integer> deletedIds = new ArrayList<>();
         List<Integer> notFoundIds = new ArrayList<>();
-        for(Integer id:ids){
+        for (Integer id : ids) {
             if (registrations.containsKey(id)) {
                 registrations.remove(id);
                 deletedIds.add(id);
 
-        } else {
-            notFoundIds.add(id);
+            } else {
+                notFoundIds.add(id);
+            }
+
         }
+        return "Bulk Deletion Completed\n" +
+                "Total Requested: " + ids.size() + "\n" +
+                "Deleted Successfully: " + deletedIds.size() + "\n" +
+                "Deleted IDs: " + deletedIds + "\n" +
+                "Not Found IDs: " + notFoundIds;
     }
 
 }
 
-}
+
