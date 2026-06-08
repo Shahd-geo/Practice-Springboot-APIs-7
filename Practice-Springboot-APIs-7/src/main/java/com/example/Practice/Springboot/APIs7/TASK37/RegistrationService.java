@@ -2,6 +2,7 @@ package com.example.Practice.Springboot.APIs7.TASK37;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,8 @@ public class RegistrationService {
         registrations.put(104, new EventRegistration(104, "Ali"));
     }
     public String deleteMultipleByIds(List<Integer> ids){
+        List<Integer> deletedIds = new ArrayList<>();
+        List<Integer> notFoundIds = new ArrayList<>();
 
     }
 
