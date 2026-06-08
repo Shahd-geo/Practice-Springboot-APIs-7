@@ -17,5 +17,3 @@ public class RegistrationController {
         return registrationService.deleteMultipleByIds(ids);
     }
 }
-
-}
