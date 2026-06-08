@@ -1,27 +1,30 @@
-# Spring Boot APIs Practice
+# Spring Boot DELETE Operations
 
-This repository contains practical exercises for learning REST APIs using Spring Boot.
+This repository contains practical exercises for learning DELETE operations in Java and Spring Boot.
+
+## Included Tasks
+
+### Task 34
+Using Java Basics for DELETE Logic – Remove a Task from a To-Do List
+
+### Task 35
+Applying Java OOP for DELETE Operations – Remove a Member from a Library System
+
+### Task 36
+Building a Java Spring Boot DELETE Endpoint – Remove a Product from Inventory
+
+### Task 37
+Bulk Event Registration Removal using Spring Boot DELETE Endpoint
 
 ## Technologies
 - Java
+- OOP
 - Spring Boot
-- Maven
+- REST API
 - Postman
 
-## Tasks
-
-### Task 36 - Delete Product API
-- DELETE endpoint
-- PathVariable usage
-- HashMap storage
-- Service layer architecture
-
-### Task 37 - Bulk Delete Registrations API
-- Bulk DELETE endpoint
-- RequestBody List<Integer>
-- Success and failure tracking
-- Service layer separation
-
 ## Testing
+Task 37 was tested using Postman.
+## API Testing
 
-The APIs were tested using Postman.
+![Task37 Test](images/task37-postman.png)
