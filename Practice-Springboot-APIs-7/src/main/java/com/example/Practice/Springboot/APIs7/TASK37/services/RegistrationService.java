@@ -1,5 +1,6 @@
-package com.example.Practice.Springboot.APIs7.TASK37;
+package com.example.Practice.Springboot.APIs7.TASK37.services;
 
+import com.example.Practice.Springboot.APIs7.TASK37.entities.EventRegistration;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

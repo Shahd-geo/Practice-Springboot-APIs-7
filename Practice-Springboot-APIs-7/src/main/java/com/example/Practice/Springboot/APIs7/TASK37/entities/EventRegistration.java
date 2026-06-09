@@ -1,4 +1,4 @@
-package com.example.Practice.Springboot.APIs7.TASK37;
+package com.example.Practice.Springboot.APIs7.TASK37.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
