@@ -1,5 +1,6 @@
-package com.example.Practice.Springboot.APIs7.TASK36;
+package com.example.Practice.Springboot.APIs7.TASK36.services;
 
+import com.example.Practice.Springboot.APIs7.TASK36.entities.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
